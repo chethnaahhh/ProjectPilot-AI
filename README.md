@@ -1,30 +1,30 @@
 # ProjectPilot AI
 
-ProjectPilot AI is a project planning and product operations dashboard designed to help teams turn feedback, opportunity signals, and roadmap priorities into execution-ready decisions. The application brings together product feedback collection, prioritization, release planning, KPI monitoring, and PRD generation in a single local workspace.
+ProjectPilot AI is a product management and product intelligence dashboard built for teams that need to turn customer feedback into actionable product decisions. The application brings together feedback intake, sentiment analysis, prioritization, roadmap planning, KPI monitoring, and PRD generation in a single local workspace.
 
 ## Overview
 
-ProjectPilot AI helps teams:
-- capture and review customer or stakeholder feedback
+Based on the current implementation in this repository, ProjectPilot AI is a product-focused project dashboard for teams that need to:
+- capture and manage customer feedback
 - analyze sentiment and recurring themes in incoming feedback
-- prioritize planned work using weighted scoring criteria
+- prioritize feature requests using weighted scoring criteria
 - organize roadmap items and milestones
-- monitor KPIs related to satisfaction, adoption, and release progress
-- generate product requirements documentation from structured inputs
+- monitor the health of the product through KPI metrics
+- generate product requirements documents from structured inputs
 
 ## Verified Features
 
-The following capabilities are implemented in the current source code and are available in the application:
+The following features are implemented in the current source code and are available in the running app:
 
-- Dashboard summary cards with live metrics and visual analytics
-- Customer feedback management: add, edit, and delete feedback entries
+- Dashboard summary cards with live product metrics and analytics
+- Customer feedback management: add, edit, and delete entries
 - Feedback analysis with sentiment classification, keyword extraction, and category grouping
 - Feature prioritization scoring based on customer value, business impact, confidence, and strategic alignment
-- Roadmap planning with status filters and milestone tracking
+- Product roadmap planning with status filters and milestone tracking
 - KPI analytics for satisfaction, feedback volume, adoption, resolution rate, and release progress
 - PRD generation and preview with export options for Markdown/TXT and print support
 - JSON import/export and demo data restoration
-- Responsive SaaS-style layout with local browser persistence using localStorage
+- Responsive interface with local browser persistence using localStorage
 
 ## Technology Stack
 
@@ -81,6 +81,8 @@ Screenshots are not yet included in this repository. Add images here when availa
 │   ├── App.test.jsx
 │   ├── index.css
 │   ├── main.jsx
+│   ├── test/
+│   │   └── setup.js
 │   └── utils/
 │       ├── logic.js
 │       └── logic.test.js
@@ -95,9 +97,9 @@ Screenshots are not yet included in this repository. Add images here when availa
 ├── playwright.config.js
 ├── .gitignore
 ├── README.md
-└── src/test/setup.js
+└── dist/
 ```
 
 ## Notes
 
-This project is a local, portfolio-ready application and does not require external credentials or a hosted backend for the core experience.
+This project is a local portfolio-ready application and does not require external credentials or a hosted backend for the core experience.
